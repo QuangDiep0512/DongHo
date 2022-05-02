@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+h2{
+    color:rgb(29, 28, 28);
+    padding: 10px;
+}
+/* Container */
+#container_sp{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#container_sp .Information{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px 
+}
+#container_sp .img_Philip img{
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
+}
+ 
+.Information .detail .giaBan{
+    padding: 10px 20px;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail .soTien p:first-child{
+    font-size: 14px;
+    color: rgb(121, 119, 119);
+    padding-bottom: 10px;
+}
+.detail .soTien p:last-child{
+    color:rgb(192, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail .vanChuyen p{
+    font-style: italic;
+    color:rgb(23, 149, 172);
+}
+.detail .thongSoKyThuat{
+    width: 100%;
+}
+.thongSoKyThuat h4{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+.thongSoKyThuat .parameter{
+    display: flex;
+    border-bottom:1px solid #ccc ;
+}
+.thongSoKyThuat .parameter p:first-child{
+    width: 50%;
+    margin-left: 30px;
+}
+.thongSoKyThuat .parameter p:last-child{
+    width:50%;
+    margin-right: 40px;
+}
+.chiTietSP{
+    text-align: center;
+}
+.chiTietSP img{
+    width:600px;
+}
+
+.chiTietSP h2{
+    border-bottom: 1px solid #000;
+}
+.chiTietSP p{
+    padding : 15px 0 5px 0;
+    font-size:18px;
+    line-height: 1.4;
+}
+.btn-Giohang{
+    display: flex;
+    justify-content: center;
+}
+.btn-Giohang button{
+    padding: 8px 15px;
+    background-color: rgb(231, 95, 95);
+    border: transparent;
+    margin-left: 25px;
+    border-radius:10px ;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+.btn-Giohang i{
+    color: rgb(241, 238, 62);
+}
+
